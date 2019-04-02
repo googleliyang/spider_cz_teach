@@ -1,0 +1,61 @@
+2019-03-30 11:51:00 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: py37)
+2019-03-30 11:51:01 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'py37', 'COOKIES_DEBUG': True, 'DUPEFILTER_CLASS': 'scrapy_splash.SplashAwareDupeFilter', 'HTTPCACHE_STORAGE': 'scrapy_splash.SplashAwareFSCacheStorage', 'LOG_FILE': 'py37.log', 'NEWSPIDER_MODULE': 'Splash.spiders', 'SPIDER_MODULES': ['Splash.spiders']}
+2019-03-30 11:51:01 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019-03-30 11:51:01 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy_splash.SplashCookiesMiddleware',
+ 'scrapy_splash.SplashMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-03-30 11:51:01 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-03-30 11:51:01 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2019-03-30 11:51:01 [scrapy.core.engine] INFO: Spider opened
+2019-03-30 11:51:01 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-03-30 11:51:01 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2019-03-30 11:51:01 [scrapy.downloadermiddlewares.cookies] DEBUG: Received cookies from: <200 https://www.baidu.com/s?wd=python>
+Set-Cookie: BD_NOT_HTTPS=1; path=/; Max-Age=300
+
+Set-Cookie: BIDUPSID=613508A90C11855AE82AEEAA38CD0930; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
+
+Set-Cookie: PSTM=1553917861; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com
+
+2019-03-30 11:51:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.baidu.com/s?wd=python> (referer: None)
+2019-03-30 11:51:01 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-03-30 11:51:01 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 222,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 872,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 3, 30, 3, 51, 1, 420046),
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 7,
+ 'memusage/max': 46821376,
+ 'memusage/startup': 46821376,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 3, 30, 3, 51, 1, 67033)}
+2019-03-30 11:51:01 [scrapy.core.engine] INFO: Spider closed (finished)

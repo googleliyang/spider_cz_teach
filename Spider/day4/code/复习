@@ -1,0 +1,25 @@
+关于爬取电商品类销量排行，微博舆情监控等，希望老师能讲解下思路以及使用到的工具。
+爬虫和数据分析就业岗位如何，先做web开发，最后转数据分析难度大吗？
+学习爬虫的学历要求高吗？面试的时候说自己有多少工作经验合适啊
+
+
+反爬相关
+    原因
+    方向
+        验证身份
+        分析行为
+        动态加载
+
+验证码处理
+    场景
+        登录注册
+        长时间请求
+    处理
+        input
+        图像识别引擎
+            主要用于图片数据的提取，训练之后可用于验证码处理
+        打码平台
+
+
+
+db.stu.insert([{"name" : "郭靖", "hometown" : "蒙古", "age" : 20, "gender" : true},{"name" : "黄蓉", "hometown" : "桃花岛", "age" : 18, "gender" : false },{"name" : "华筝", "hometown" : "蒙古", "age" : 18, "gender" : false },{"name" : "黄药师", "hometown" : "桃花岛", "age" : 40, "gender" : true },{"name" : "段誉", "hometown" : "大理", "age" : 16, "gender" : true },{"name" : "段王爷", "hometown" : "大理", "age" : 45, "gender" : true },{"name" : "洪七公", "hometown" : "华筝", "age" : 18, "gender" : true }])

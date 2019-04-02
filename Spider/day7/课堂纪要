@@ -1,0 +1,17 @@
+1.splash使用
+  1.在爬虫中导入splashrequest类
+  2.需要渲染的请求使用splashrequest创建成请求，并且发送出去
+
+  3.在配置文件中设置splash服务地址
+  4.在配置文件中设置splash中间件&重复过滤器&缓存
+
+日志等级
+  DEBUG
+  INFO
+  WARNING
+  ERROR
+  CRICAL
+
+
+
+dark_sylphid
